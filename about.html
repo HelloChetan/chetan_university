@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicorn</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+   <section class="sub-header" >
+      <nav>
+        <a href="index.html"><img src="img/logo.png"></a>
+       <div class="nav-links" id="navLinks">
+         <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+       </div>
+       <i class="fa fa-bars" onclick="ShowMenu()"></i>
+      </nav>
+     <h1>About Us</h1>
+   </section>
+        <!-- ---------------- about us content---------------- -->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the world's largest university</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sequi fugiat deleniti fuga numquam cum corporis, error recusandae expedita in suscipit explicabo praesentium illo facilis veritatis iusto libero, quaerat vel enim magnam distinctio. Nam numquam provident natus et tempore quo aperiam hic nostrum repudiandae laboriosam?</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+                </div>
+                <div class="about-col">
+                    <img src="img/about.jpg">
+                </div>
+        
+            </div>
+        </section>
+
+   <!-- ------Footer------ -->
+
+   <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, corrupti. Odit fuga quae<br>distinctio, veritatis autem reprehenderit totam omnis placeat excepturi esse aut. Earum, temporibus!</p>
+      <div class="icons">
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> By Chetan Sonar</p>
+   </section>
+
+   <!-- JavaScript For Toggle -->
+   <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function ShowMenu() {
+         navLinks.style.right = "0";
+      }
+      function hideMenu() {
+         navLinks.style.right = "-200px";
+      }
+   </script>
+</body>
+</html>

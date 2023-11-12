@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicorn</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+   <section class="sub-header" >
+      <nav>
+        <a href="index.html"><img src="img/logo.png"></a>
+       <div class="nav-links" id="navLinks">
+         <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+       </div>
+       <i class="fa fa-bars" onclick="ShowMenu()"></i>
+      </nav>
+     <h1>Our Cretificate & Online Programs For 2024</h1>
+   </section>
+     <!-- ---------------blog page content------------------------  -->
+
+     <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg">
+                <h2>Our Cretificate & Online Programs For 2024</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis sint quam tempore nostrum rem molestiae sunt! Aspernatur ullam officiis aut sunt atque quis quae fugit aliquam ipsam nam ratione quidem facilis molestias ea sed, corporis repellendus tenetur magni alias placeat similique dignissimos! Animi, facilis inventore!</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ad asperiores aliquam cupiditate adipisci natus rem? Aut repudiandae eveniet id dicta alias, iste est illum, ut excepturi, fuga cum perferendis corrupti officiis sapiente! Ut dolore optio amet illo ipsam officiis magni quam ratione suscipit. Sunt sed consequatur consequuntur ratione, quisquam fugit, facere magni possimus exercitationem ipsum inventore nobis porro nostrum. Eius harum quod saepe rerum dolor cumque explicabo pariatur omnis deserunt ex temporibus sit, perferendis illum? Aliquid sed temporibus obcaecati!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, id temporibus mollitia nisi adipisci sint neque, necessitatibus earum est, unde voluptatem et odit quo iusto soluta natus odio accusantium ex accusamus. Quae iste et fugit aperiam, doloremque delectus accusantium, exercitationem ab dolorum, nam obcaecati veniam facere veritatis deleniti? Nulla, ab culpa maiores quisquam in eum eligendi sint laboriosam. Harum ipsa delectus, cupiditate ratione natus assumenda atque. Beatae aliquid deserunt omnis culpa unde, voluptates saepe architecto? In eos molestias reiciendis iure explicabo soluta tempore natus quisquam rerum nisi, placeat ullam est praesentium repellendus consectetur eveniet earum consequatur itaque? Odio, eligendi nam ipsa rerum eos perferendis assumenda commodi. Placeat, eos. Ipsum vel laboriosam iste ea, quisquam explicabo expedita voluptatibus adipisci praesentium hic ut officiis nobis odit porro commodi? Modi iusto minima necessitatibus!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam at? Facere maiores pariatur debitis nam molestiae repellat, architecto sed dolores labore eos? Voluptas quam tenetur error dignissimos exercitationem adipisci dicta nemo magni at inventore! Laborum aut exercitationem libero sapiente nobis et earum, dolore, distinctio, optio magnam labore autem qui.</p>
+                
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter E-mail">
+                        <textarea rows="5" placeholder="Your Comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                    </form>
+                </div>
+                
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+            </div>
+        </div>
+     </section>
+
+   <!-- ------Footer------ -->
+
+   <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, corrupti. Odit fuga quae<br>distinctio, veritatis autem reprehenderit totam omnis placeat excepturi esse aut. Earum, temporibus!</p>
+      <div class="icons">
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> By Chetan Sonar</p>
+   </section>
+
+   <!-- JavaScript For Toggle -->
+   <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function ShowMenu() {
+         navLinks.style.right = "0";
+      }
+      function hideMenu() {
+         navLinks.style.right = "-200px";
+      }
+   </script>
+</body>
+</html>
